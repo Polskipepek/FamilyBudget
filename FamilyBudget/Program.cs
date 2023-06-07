@@ -1,4 +1,8 @@
+
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<FamilyBudgetContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("FamilyBudgetContext") ?? throw new InvalidOperationException("Connection string 'FamilyBudgetContext' not found.")));
 
 // Add services to the container.
 
