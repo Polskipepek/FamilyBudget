@@ -5,8 +5,9 @@ builder.Services.AddDbContext<FamilyBudgetContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("FamilyBudgetContext") ?? throw new InvalidOperationException("Connection string 'FamilyBudgetContext' not found.")));
 
 // Add services to the container.
-
+builder.Services.AddAuthentication();
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -21,6 +22,8 @@ if (app.Environment.IsDevelopment()) {
 
 app.UseHttpsRedirection();
 
+app.UseCors();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
