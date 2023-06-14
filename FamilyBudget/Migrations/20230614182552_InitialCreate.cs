@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace FamilyBudget.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace FamilyBudget.Migrations
                 columns: table => new
                 {
                     CategoryId = table.Column<Guid>(type: "uuid", nullable: false),
-                    CategoryName = table.Column<string>(type: "text", nullable: false)
+                    CategoryName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,10 +28,10 @@ namespace FamilyBudget.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserName = table.Column<string>(type: "text", nullable: false),
-                    UserPassword = table.Column<string>(type: "text", nullable: false),
-                    UserEmail = table.Column<string>(type: "text", nullable: false),
-                    UserSalt = table.Column<string>(type: "text", nullable: false)
+                    UserName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    UserPassword = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    UserEmail = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    UserSalt = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -43,14 +43,38 @@ namespace FamilyBudget.Migrations
                 columns: table => new
                 {
                     BudgetId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserId = table.Column<Guid>(type: "uuid", nullable: false),
-                    BudgetName = table.Column<string>(type: "text", nullable: false)
+                    OwnerId = table.Column<Guid>(type: "uuid", nullable: false),
+                    BudgetName = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Budgets", x => x.BudgetId);
                     table.ForeignKey(
-                        name: "FK_Budgets_Users_UserId",
+                        name: "FK_Budgets_Users_OwnerId",
+                        column: x => x.OwnerId,
+                        principalTable: "Users",
+                        principalColumn: "UserId",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "BudgetUsers",
+                columns: table => new
+                {
+                    BudgetId = table.Column<Guid>(type: "uuid", nullable: false),
+                    UserId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BudgetUsers", x => new { x.BudgetId, x.UserId });
+                    table.ForeignKey(
+                        name: "FK_BudgetUsers_Budgets_BudgetId",
+                        column: x => x.BudgetId,
+                        principalTable: "Budgets",
+                        principalColumn: "BudgetId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_BudgetUsers_Users_UserId",
                         column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "UserId",
@@ -61,15 +85,15 @@ namespace FamilyBudget.Migrations
                 name: "Expenses",
                 columns: table => new
                 {
-                    ExpenseId = table.Column<Guid>(type: "uuid", nullable: false),
+                    TransactionId = table.Column<Guid>(type: "uuid", nullable: false),
                     BudgetId = table.Column<Guid>(type: "uuid", nullable: false),
                     CategoryId = table.Column<Guid>(type: "uuid", nullable: false),
                     Amount = table.Column<decimal>(type: "numeric", nullable: false),
-                    Date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    Date = table.Column<DateTime>(type: "timestamp with time zone", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Expenses", x => x.ExpenseId);
+                    table.PrimaryKey("PK_Expenses", x => x.TransactionId);
                     table.ForeignKey(
                         name: "FK_Expenses_Budgets_BudgetId",
                         column: x => x.BudgetId,
@@ -88,15 +112,15 @@ namespace FamilyBudget.Migrations
                 name: "Incomes",
                 columns: table => new
                 {
-                    IncomeId = table.Column<Guid>(type: "uuid", nullable: false),
+                    TransactionId = table.Column<Guid>(type: "uuid", nullable: false),
                     BudgetId = table.Column<Guid>(type: "uuid", nullable: false),
                     CategoryId = table.Column<Guid>(type: "uuid", nullable: false),
                     Amount = table.Column<decimal>(type: "numeric", nullable: false),
-                    Date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    Date = table.Column<DateTime>(type: "timestamp with time zone", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Incomes", x => x.IncomeId);
+                    table.PrimaryKey("PK_Incomes", x => x.TransactionId);
                     table.ForeignKey(
                         name: "FK_Incomes_Budgets_BudgetId",
                         column: x => x.BudgetId,
@@ -112,8 +136,13 @@ namespace FamilyBudget.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Budgets_UserId",
+                name: "IX_Budgets_OwnerId",
                 table: "Budgets",
+                column: "OwnerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_BudgetUsers_UserId",
+                table: "BudgetUsers",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
@@ -140,6 +169,9 @@ namespace FamilyBudget.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "BudgetUsers");
+
             migrationBuilder.DropTable(
                 name: "Expenses");
 

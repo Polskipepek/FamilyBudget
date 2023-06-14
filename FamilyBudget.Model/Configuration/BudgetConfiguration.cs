@@ -5,6 +5,9 @@ public class BudgetConfiguration : IEntityTypeConfiguration<Budget> {
 
         entity.Property(x => x.BudgetName).IsRequired().HasMaxLength(100);
 
-        entity.Property(x => x.User).IsRequired().HasMaxLength(1000);
+        entity
+            .HasOne(x => x.Owner)
+            .WithMany(x => x.BudgetsWhereOwner)
+            .HasForeignKey(x => x.OwnerId);
     }
 }

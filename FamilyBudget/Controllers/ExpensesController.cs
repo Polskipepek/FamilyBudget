@@ -37,7 +37,7 @@ public class ExpensesController : ControllerBase {
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPut("{id}")]
     public async Task<IActionResult> PutExpense(Guid id, Expense expense) {
-        if (id != expense.ExpenseId) {
+        if (id != expense.TransactionId) {
             return BadRequest();
         }
 
@@ -66,7 +66,7 @@ public class ExpensesController : ControllerBase {
         _context.Expenses.Add(expense);
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction("GetExpense", new { id = expense.ExpenseId }, expense);
+        return CreatedAtAction("GetExpense", new { id = expense.TransactionId }, expense);
     }
 
     // DELETE: api/Expenses/5
@@ -87,6 +87,6 @@ public class ExpensesController : ControllerBase {
     }
 
     private bool ExpenseExists(Guid id) {
-        return (_context.Expenses?.Any(e => e.ExpenseId == id)).GetValueOrDefault();
+        return (_context.Expenses?.Any(e => e.TransactionId == id)).GetValueOrDefault();
     }
 }

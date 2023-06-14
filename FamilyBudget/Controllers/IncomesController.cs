@@ -37,7 +37,7 @@ public class IncomesController : ControllerBase {
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
     [HttpPut("{id}")]
     public async Task<IActionResult> PutIncome(Guid id, Income income) {
-        if (id != income.IncomeId) {
+        if (id != income.TransactionId) {
             return BadRequest();
         }
 
@@ -66,7 +66,7 @@ public class IncomesController : ControllerBase {
         _context.Incomes.Add(income);
         await _context.SaveChangesAsync();
 
-        return CreatedAtAction("GetIncome", new { id = income.IncomeId }, income);
+        return CreatedAtAction("GetIncome", new { id = income.TransactionId }, income);
     }
 
     // DELETE: api/Incomes/5
@@ -87,6 +87,6 @@ public class IncomesController : ControllerBase {
     }
 
     private bool IncomeExists(Guid id) {
-        return (_context.Incomes?.Any(e => e.IncomeId == id)).GetValueOrDefault();
+        return (_context.Incomes?.Any(e => e.TransactionId == id)).GetValueOrDefault();
     }
 }
