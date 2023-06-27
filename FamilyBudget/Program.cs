@@ -1,10 +1,15 @@
 
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<FamilyBudgetContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("FamilyBudgetContext") ?? throw new InvalidOperationException("Connection string 'FamilyBudgetContext' not found.")));
+builder.Services.AddDbContext<FamilyBudgetContext>(options => {
+    options.UseNpgsql(builder.Configuration.GetConnectionString("FamilyBudgetContext") ?? throw new InvalidOperationException("Connection string 'FamilyBudgetContext' not found."));
+    options.EnableSensitiveDataLogging();
+});
 
 // Add services to the container.
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy("greetings", policy => policy.RequireRole("admin"));
+
 builder.Services.AddAuthentication();
 builder.Services.AddControllers();
 

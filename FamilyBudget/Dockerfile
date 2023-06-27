@@ -1,4 +1,4 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
 WORKDIR /app
@@ -23,6 +23,18 @@ COPY --from=publish /app/publish .
 
 RUN apt-get update && apt-get install -y libpq-dev
 
-ENTRYPOINT ["dotnet", "FamilyBudget.dll"]
+# Install PostgreSQL client
+RUN apt-get install -y postgresql-client
 
-CMD ASPNETCORE_URLS=http://+:80 dotnet FamilyBudget.dll --network=host
+# Set environment variables for connecting to the PostgreSQL server
+ENV DB_HOST=localhost
+ENV DB_PORT=5432
+ENV DB_NAME=FamilyBudgetDatabase
+ENV DB_USER=posgres
+ENV DB_PASSWORD=CeP*kfc3&*n*35
+
+# Wait for the PostgreSQL server to be ready before starting the application
+COPY wait-for-postgres.sh /wait-for-postgres.sh
+RUN chmod +x /wait-for-postgres.sh
+
+ENTRYPOINT ["/wait-for-postgres.sh", "dotnet", "FamilyBudget.dll"]
