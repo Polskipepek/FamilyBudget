@@ -13,5 +13,15 @@ services:
         - '4001:443'
     networks:
         - ntw
+
+  familybudget.react:
+    build:
+      context: familybudget.react
+      dockerfile: Dockerfile
+    ports:
+        - '8888:8888'
+    networks:
+        - ntw
+
 networks:
   ntw:

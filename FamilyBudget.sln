@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyBudget.Model", "FamilyBudget.Model\FamilyBudget.Model.csproj", "{DF305644-B494-43AD-9341-B5DDB84CF9F9}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "familybudget.react", "familybudget.react\familybudget.react.esproj", "{42257114-EAD7-460D-AD9F-72B1A43092FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{DF305644-B494-43AD-9341-B5DDB84CF9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF305644-B494-43AD-9341-B5DDB84CF9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF305644-B494-43AD-9341-B5DDB84CF9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
