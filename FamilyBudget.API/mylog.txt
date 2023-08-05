@@ -1,0 +1,260 @@
+warn: 08/02/2023 17:52:59.960 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 17:52:59.971 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:52:59.971 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:52:59.971 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:52:59.971 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:53:00.042 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 17:53:00.054 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 17:53:00.070 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (16ms).
+dbug: 08/02/2023 17:53:00.072 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:53:00.140 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:53:00.164 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 17:53:00.165 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:53:00.166 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 17:56:39.076 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 17:56:39.086 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:56:39.086 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:56:39.086 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:56:39.086 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:56:39.150 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 17:56:39.160 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 17:56:39.176 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 17:56:39.178 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:56:39.249 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:56:39.273 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 17:56:39.273 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:56:39.275 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 17:57:36.896 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 17:57:36.907 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:57:36.907 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:57:36.907 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:57:36.907 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 17:57:36.975 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 17:57:36.985 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 17:57:37.001 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 17:57:37.003 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:57:37.089 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:57:37.115 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 17:57:37.116 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 17:57:37.117 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:09:59.229 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:09:59.239 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:09:59.239 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:09:59.239 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:09:59.239 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:09:59.303 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:09:59.314 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:09:59.331 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (16ms).
+dbug: 08/02/2023 18:09:59.333 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:09:59.354 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:09:59.370 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:09:59.371 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:09:59.372 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:11:49.007 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:11:49.019 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:11:49.019 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:11:49.019 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:11:49.019 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:11:49.084 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:11:49.096 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:11:49.112 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (16ms).
+dbug: 08/02/2023 18:11:49.114 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:11:49.136 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:11:49.153 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:11:49.154 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:11:49.155 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:12:27.860 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:12:27.869 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:27.870 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:27.870 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:27.870 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:27.933 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:12:27.945 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:12:27.961 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 18:12:27.963 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:27.985 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:28.000 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:12:28.001 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:28.002 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:12:55.604 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:12:55.614 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:55.614 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:55.614 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:55.614 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:12:55.679 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:12:55.691 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:12:55.706 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 18:12:55.708 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:55.730 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:55.746 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:12:55.747 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:12:55.749 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:13:42.676 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:13:42.686 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:13:42.686 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:13:42.686 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:13:42.686 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:13:42.750 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:13:42.762 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:13:42.777 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 18:13:42.779 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:13:42.801 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:13:42.817 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:13:42.818 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:13:42.819 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:14:10.389 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:14:10.399 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:14:10.399 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:14:10.399 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:14:10.399 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:14:10.466 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:14:10.478 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:14:10.494 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 18:14:10.496 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:14:10.519 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:14:10.535 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:14:10.536 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:14:10.538 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 08/02/2023 18:17:27.409 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 08/02/2023 18:17:27.419 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:17:27.419 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:17:27.419 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:17:27.419 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 08/02/2023 18:17:27.483 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 08/02/2023 18:17:27.494 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 08/02/2023 18:17:27.510 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (15ms).
+dbug: 08/02/2023 18:17:27.512 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:17:27.534 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:17:27.550 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 08/02/2023 18:17:27.551 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 08/02/2023 18:17:27.552 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).

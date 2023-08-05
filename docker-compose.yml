@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  familybudget.api:
+    image: ${DOCKER_REGISTRY-}familybudgetapi
+    build:
+      context: .
+      dockerfile: FamilyBudget.API/Dockerfile
+      args:
+        - ENV=Production
+    ports:
+        - '4000:80'
+        - '4001:443'
+    networks:
+        - ntw
+networks:
+  ntw:
