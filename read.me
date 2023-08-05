@@ -1,0 +1,6 @@
+To create Postgres image in docker:
+	docker run --restart=always --name "PostgresDocker" -p 5432:5432 --network familybudget_ntw -e POSTGRES_PASSWORD="BESTPASSWORD" -d postgres 
+
+To create PFX file from PEM:
+	openssl req -new -x509 -key privkey.pem -out selfsigned.cer
+	openssl pkcs12 -export -in FamilyBudget.cer -inkey FamilyBudget.pem -out FamilyBudget.pfx

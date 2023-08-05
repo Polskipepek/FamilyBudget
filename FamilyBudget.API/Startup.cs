@@ -6,7 +6,6 @@ public class Startup {
 
     public IConfiguration Configuration { get; }
     public void ConfigureServices(IServiceCollection services) {
-        //var builder = WebApplication.CreateBuilder(args);
 
         services.AddDbContext<FamilyBudgetContext>(options => {
             options.UseNpgsql(Configuration.GetConnectionString("FamilyBudgetContext") ?? throw new InvalidOperationException("Connection string 'FamilyBudgetContext' not found."));

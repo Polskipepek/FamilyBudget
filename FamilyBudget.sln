@@ -8,12 +8,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CE2EF213-5246-409F-B9AD-58BA72C4F42F}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		read.me = read.me
 		run.bat = run.bat
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FamilyBudget.Model", "FamilyBudget.Model\FamilyBudget.Model.csproj", "{DF305644-B494-43AD-9341-B5DDB84CF9F9}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "familybudget.react", "familybudget.react\familybudget.react.esproj", "{42257114-EAD7-460D-AD9F-72B1A43092FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamilyBudget.Client", "FamilyBudget.Client\FamilyBudget.Client.csproj", "{05A10277-9F93-41B8-B85A-64FE31F2BEC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +38,10 @@ Global
 		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42257114-EAD7-460D-AD9F-72B1A43092FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{05A10277-9F93-41B8-B85A-64FE31F2BEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A10277-9F93-41B8-B85A-64FE31F2BEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A10277-9F93-41B8-B85A-64FE31F2BEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A10277-9F93-41B8-B85A-64FE31F2BEC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

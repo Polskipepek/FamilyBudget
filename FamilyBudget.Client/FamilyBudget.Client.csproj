@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NSwag.Annotations" Version="13.19.0" />
+    <PackageReference Include="NSwag.CodeGeneration" Version="13.19.0" />
+    <PackageReference Include="NSwag.CodeGeneration.CSharp" Version="13.19.0" />
+    <PackageReference Include="NSwag.CodeGeneration.TypeScript" Version="13.19.0" />
+    <PackageReference Include="NSwag.Core" Version="13.19.0" />
+    <PackageReference Include="NSwag.MSBuild" Version="13.19.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FamilyBudget.API\FamilyBudget.API.csproj" />
+	</ItemGroup>
+
+	<Target Name="GenerateApiClientSourceCode" BeforeTargets="CoreCompile;PrepareResource">
+		<Exec Command="$(NSwagExe_Net70) run nswag.json /variables:Configuration=$(Configuration),Output=.\ApiClient.generated.cs,ProjectReference=FamilyBudget.API,TypeScriptOutput=../familybudget.react/src/services/GeneratedClient.ts,ClientTemplate=./client.extensions.ts" />
+	</Target>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties nswag_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>
