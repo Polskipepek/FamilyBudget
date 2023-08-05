@@ -258,3 +258,625 @@ dbug: 08/02/2023 18:17:27.551 RelationalEventId.ConnectionDisposing[20007] (Micr
       Disposing connection to database 'FamilyBudgetDatabase' on server ''.
 dbug: 08/02/2023 18:17:27.552 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
       Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 05.08.2023 11:53:00.502 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 05.08.2023 11:53:00.510 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.510 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.510 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.510 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.570 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 05.08.2023 11:53:00.585 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.585 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.585 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.585 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:00.655 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+warn: 05.08.2023 11:53:14.807 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 05.08.2023 11:53:14.816 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:14.816 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:14.816 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:14.816 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:14.877 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 05.08.2023 11:53:14.885 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 05.08.2023 11:53:14.899 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (13ms).
+dbug: 05.08.2023 11:53:14.899 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:14.903 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:14.949 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.950 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.953 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (2ms).
+dbug: 05.08.2023 11:53:14.955 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 05.08.2023 11:53:14.957 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (1ms).
+dbug: 05.08.2023 11:53:14.958 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (2ms).
+dbug: 05.08.2023 11:53:14.958 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:14.967 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.969 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+info: 05.08.2023 11:53:14.987 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+dbug: 05.08.2023 11:53:14.987 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.988 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:14.988 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:14.993 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.993 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:14.993 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.023 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "__EFMigrationsHistory" (
+          "MigrationId" character varying(150) NOT NULL,
+          "ProductVersion" character varying(32) NOT NULL,
+          CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+      );
+info: 05.08.2023 11:53:15.031 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "__EFMigrationsHistory" (
+          "MigrationId" character varying(150) NOT NULL,
+          "ProductVersion" character varying(32) NOT NULL,
+          CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+      );
+dbug: 05.08.2023 11:53:15.031 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.031 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:15.031 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.035 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+info: 05.08.2023 11:53:15.036 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+dbug: 05.08.2023 11:53:15.036 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.036 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.037 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+info: 05.08.2023 11:53:15.038 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+dbug: 05.08.2023 11:53:15.038 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.039 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'FamilyBudgetDatabase' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results.
+dbug: 05.08.2023 11:53:15.039 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.039 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+info: 05.08.2023 11:53:15.044 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20230805095300_model_origin'.
+dbug: 05.08.2023 11:53:15.059 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.059 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.060 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 05.08.2023 11:53:15.062 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 05.08.2023 11:53:15.062 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:15.062 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:15.062 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:15.062 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Categories" (
+          "CategoryId" uuid NOT NULL,
+          "CategoryName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Categories" PRIMARY KEY ("CategoryId")
+      );
+fail: 05.08.2023 11:53:15.066 RelationalEventId.CommandError[20102] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Failed executing DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Categories" (
+          "CategoryId" uuid NOT NULL,
+          "CategoryName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Categories" PRIMARY KEY ("CategoryId")
+      );
+dbug: 05.08.2023 11:53:15.068 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 05.08.2023 11:53:15.068 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:15.068 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:15.069 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 05.08.2023 11:53:15.069 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:15.070 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+warn: 05.08.2023 11:53:26.878 CoreEventId.SensitiveDataLoggingEnabledWarning[10400] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+dbug: 05.08.2023 11:53:26.887 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:26.887 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:26.887 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:26.887 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:26.947 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 7.0.9 initialized 'FamilyBudgetContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.4+96806371445869d20be357993820cd4be366e145' with options: SensitiveDataLoggingEnabled 
+dbug: 05.08.2023 11:53:26.955 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 05.08.2023 11:53:26.967 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (12ms).
+dbug: 05.08.2023 11:53:26.967 RelationalEventId.MigrateUsingConnection[20400] (Microsoft.EntityFrameworkCore.Migrations) 
+      Migrating using database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:26.971 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.000 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.001 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.004 RelationalEventId.ConnectionError[20004] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      An error occurred using the connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.014 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:27.014 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Expense.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:27.014 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.BudgetId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:27.014 CoreEventId.ShadowPropertyCreated[10600] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      The property 'Income.CategoryId' was created in shadow state because there are no eligible CLR members with a matching name.
+dbug: 05.08.2023 11:53:27.020 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+dbug: 05.08.2023 11:53:27.020 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (0ms).
+dbug: 05.08.2023 11:53:27.020 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'postgres' on server ''.
+dbug: 05.08.2023 11:53:27.047 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'postgres' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.049 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.051 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (1ms).
+dbug: 05.08.2023 11:53:27.052 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+dbug: 05.08.2023 11:53:27.053 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE DATABASE "FamilyBudgetDatabase";
+info: 05.08.2023 11:53:27.133 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (77ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE DATABASE "FamilyBudgetDatabase";
+dbug: 05.08.2023 11:53:27.133 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'postgres' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.136 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'postgres' on server '' (1ms).
+dbug: 05.08.2023 11:53:27.136 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'postgres' on server ''.
+dbug: 05.08.2023 11:53:27.137 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'postgres' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.137 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.146 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.146 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.146 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.172 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.172 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.172 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.172 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.182 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.182 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "__EFMigrationsHistory" (
+          "MigrationId" character varying(150) NOT NULL,
+          "ProductVersion" character varying(32) NOT NULL,
+          CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+      );
+info: 05.08.2023 11:53:27.185 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "__EFMigrationsHistory" (
+          "MigrationId" character varying(150) NOT NULL,
+          "ProductVersion" character varying(32) NOT NULL,
+          CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+      );
+dbug: 05.08.2023 11:53:27.185 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.186 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.186 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (0ms).
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (0ms).
+dbug: 05.08.2023 11:53:27.190 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.191 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.191 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+info: 05.08.2023 11:53:27.196 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+dbug: 05.08.2023 11:53:27.196 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.196 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (0ms).
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (0ms).
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.197 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+info: 05.08.2023 11:53:27.199 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT "MigrationId", "ProductVersion"
+      FROM "__EFMigrationsHistory"
+      ORDER BY "MigrationId";
+dbug: 05.08.2023 11:53:27.199 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.200 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'FamilyBudgetDatabase' on server 'tcp://localhost:5432' is being disposed after spending 1ms reading results.
+dbug: 05.08.2023 11:53:27.200 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.200 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+info: 05.08.2023 11:53:27.205 RelationalEventId.MigrationApplying[20402] (Microsoft.EntityFrameworkCore.Migrations) 
+      Applying migration '20230805095300_model_origin'.
+dbug: 05.08.2023 11:53:27.219 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.219 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.220 RelationalEventId.TransactionStarting[20209] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Beginning transaction with isolation level 'Unspecified'.
+dbug: 05.08.2023 11:53:27.222 RelationalEventId.TransactionStarted[20200] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Began transaction with isolation level 'ReadCommitted'.
+dbug: 05.08.2023 11:53:27.222 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.222 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.222 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.222 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Categories" (
+          "CategoryId" uuid NOT NULL,
+          "CategoryName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Categories" PRIMARY KEY ("CategoryId")
+      );
+info: 05.08.2023 11:53:27.224 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Categories" (
+          "CategoryId" uuid NOT NULL,
+          "CategoryName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Categories" PRIMARY KEY ("CategoryId")
+      );
+dbug: 05.08.2023 11:53:27.224 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.224 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.224 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.224 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Users" (
+          "UserId" uuid NOT NULL,
+          "UserName" character varying(100) NOT NULL,
+          "UserPassword" character varying(100) NOT NULL,
+          "UserEmail" character varying(100) NOT NULL,
+          "UserSalt" character varying(1000) NOT NULL,
+          CONSTRAINT "PK_Users" PRIMARY KEY ("UserId")
+      );
+info: 05.08.2023 11:53:27.228 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Users" (
+          "UserId" uuid NOT NULL,
+          "UserName" character varying(100) NOT NULL,
+          "UserPassword" character varying(100) NOT NULL,
+          "UserEmail" character varying(100) NOT NULL,
+          "UserSalt" character varying(1000) NOT NULL,
+          CONSTRAINT "PK_Users" PRIMARY KEY ("UserId")
+      );
+dbug: 05.08.2023 11:53:27.228 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.228 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.228 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.228 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Budgets" (
+          "BudgetId" uuid NOT NULL,
+          "OwnerId" uuid NOT NULL,
+          "BudgetName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Budgets" PRIMARY KEY ("BudgetId"),
+          CONSTRAINT "FK_Budgets_Users_OwnerId" FOREIGN KEY ("OwnerId") REFERENCES "Users" ("UserId") ON DELETE CASCADE
+      );
+info: 05.08.2023 11:53:27.230 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Budgets" (
+          "BudgetId" uuid NOT NULL,
+          "OwnerId" uuid NOT NULL,
+          "BudgetName" character varying(100) NOT NULL,
+          CONSTRAINT "PK_Budgets" PRIMARY KEY ("BudgetId"),
+          CONSTRAINT "FK_Budgets_Users_OwnerId" FOREIGN KEY ("OwnerId") REFERENCES "Users" ("UserId") ON DELETE CASCADE
+      );
+dbug: 05.08.2023 11:53:27.230 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.230 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.230 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.230 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "BudgetUsers" (
+          "BudgetId" uuid NOT NULL,
+          "UserId" uuid NOT NULL,
+          CONSTRAINT "PK_BudgetUsers" PRIMARY KEY ("BudgetId", "UserId"),
+          CONSTRAINT "FK_BudgetUsers_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_BudgetUsers_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("UserId") ON DELETE CASCADE
+      );
+info: 05.08.2023 11:53:27.232 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "BudgetUsers" (
+          "BudgetId" uuid NOT NULL,
+          "UserId" uuid NOT NULL,
+          CONSTRAINT "PK_BudgetUsers" PRIMARY KEY ("BudgetId", "UserId"),
+          CONSTRAINT "FK_BudgetUsers_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_BudgetUsers_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("UserId") ON DELETE CASCADE
+      );
+dbug: 05.08.2023 11:53:27.232 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.232 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.232 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.232 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Expenses" (
+          "TransactionId" uuid NOT NULL,
+          "BudgetId" uuid NOT NULL,
+          "CategoryId" uuid NOT NULL,
+          "Amount" numeric NOT NULL,
+          "Date" timestamp with time zone NOT NULL,
+          CONSTRAINT "PK_Expenses" PRIMARY KEY ("TransactionId"),
+          CONSTRAINT "FK_Expenses_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_Expenses_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("CategoryId") ON DELETE CASCADE
+      );
+info: 05.08.2023 11:53:27.235 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Expenses" (
+          "TransactionId" uuid NOT NULL,
+          "BudgetId" uuid NOT NULL,
+          "CategoryId" uuid NOT NULL,
+          "Amount" numeric NOT NULL,
+          "Date" timestamp with time zone NOT NULL,
+          CONSTRAINT "PK_Expenses" PRIMARY KEY ("TransactionId"),
+          CONSTRAINT "FK_Expenses_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_Expenses_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("CategoryId") ON DELETE CASCADE
+      );
+dbug: 05.08.2023 11:53:27.235 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.235 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.235 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.235 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Incomes" (
+          "TransactionId" uuid NOT NULL,
+          "BudgetId" uuid NOT NULL,
+          "CategoryId" uuid NOT NULL,
+          "Amount" numeric NOT NULL,
+          "Date" timestamp with time zone NOT NULL,
+          CONSTRAINT "PK_Incomes" PRIMARY KEY ("TransactionId"),
+          CONSTRAINT "FK_Incomes_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_Incomes_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("CategoryId") ON DELETE CASCADE
+      );
+info: 05.08.2023 11:53:27.238 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Incomes" (
+          "TransactionId" uuid NOT NULL,
+          "BudgetId" uuid NOT NULL,
+          "CategoryId" uuid NOT NULL,
+          "Amount" numeric NOT NULL,
+          "Date" timestamp with time zone NOT NULL,
+          CONSTRAINT "PK_Incomes" PRIMARY KEY ("TransactionId"),
+          CONSTRAINT "FK_Incomes_Budgets_BudgetId" FOREIGN KEY ("BudgetId") REFERENCES "Budgets" ("BudgetId") ON DELETE CASCADE,
+          CONSTRAINT "FK_Incomes_Categories_CategoryId" FOREIGN KEY ("CategoryId") REFERENCES "Categories" ("CategoryId") ON DELETE CASCADE
+      );
+dbug: 05.08.2023 11:53:27.238 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.238 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.238 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.238 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Budgets_OwnerId" ON "Budgets" ("OwnerId");
+info: 05.08.2023 11:53:27.240 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Budgets_OwnerId" ON "Budgets" ("OwnerId");
+dbug: 05.08.2023 11:53:27.240 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.240 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.240 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.240 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_BudgetUsers_UserId" ON "BudgetUsers" ("UserId");
+info: 05.08.2023 11:53:27.241 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_BudgetUsers_UserId" ON "BudgetUsers" ("UserId");
+dbug: 05.08.2023 11:53:27.241 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.241 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.241 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.241 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Expenses_BudgetId" ON "Expenses" ("BudgetId");
+info: 05.08.2023 11:53:27.243 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Expenses_BudgetId" ON "Expenses" ("BudgetId");
+dbug: 05.08.2023 11:53:27.243 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.243 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.243 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.243 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Expenses_CategoryId" ON "Expenses" ("CategoryId");
+info: 05.08.2023 11:53:27.244 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Expenses_CategoryId" ON "Expenses" ("CategoryId");
+dbug: 05.08.2023 11:53:27.244 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.245 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.245 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.245 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Incomes_BudgetId" ON "Incomes" ("BudgetId");
+info: 05.08.2023 11:53:27.246 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Incomes_BudgetId" ON "Incomes" ("BudgetId");
+dbug: 05.08.2023 11:53:27.246 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.246 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.246 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.246 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Incomes_CategoryId" ON "Incomes" ("CategoryId");
+info: 05.08.2023 11:53:27.248 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE INDEX "IX_Incomes_CategoryId" ON "Incomes" ("CategoryId");
+dbug: 05.08.2023 11:53:27.248 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteNonQuery'.
+dbug: 05.08.2023 11:53:27.248 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.248 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+dbug: 05.08.2023 11:53:27.248 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+      VALUES ('20230805095300_model_origin', '7.0.9');
+info: 05.08.2023 11:53:27.248 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+      VALUES ('20230805095300_model_origin', '7.0.9');
+dbug: 05.08.2023 11:53:27.249 RelationalEventId.TransactionCommitting[20210] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committing transaction.
+dbug: 05.08.2023 11:53:27.251 RelationalEventId.TransactionCommitted[20202] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Committed transaction.
+dbug: 05.08.2023 11:53:27.251 RelationalEventId.TransactionDisposed[20204] (Microsoft.EntityFrameworkCore.Database.Transaction) 
+      Disposing transaction.
+dbug: 05.08.2023 11:53:27.251 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'FamilyBudgetDatabase' on server 'tcp://localhost:5432'.
+dbug: 05.08.2023 11:53:27.252 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
+dbug: 05.08.2023 11:53:27.252 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'FamilyBudgetContext' disposed.
+dbug: 05.08.2023 11:53:27.252 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'FamilyBudgetDatabase' on server ''.
+dbug: 05.08.2023 11:53:27.252 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'FamilyBudgetDatabase' on server '' (0ms).
