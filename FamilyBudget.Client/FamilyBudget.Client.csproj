@@ -25,7 +25,7 @@
 	</ItemGroup>
 
 	<Target Name="GenerateApiClientSourceCode" BeforeTargets="CoreCompile;PrepareResource">
-		<Exec Command="$(NSwagExe_Net70) run nswag.json /variables:Configuration=$(Configuration),Output=.\ApiClient.generated.cs,ProjectReference=FamilyBudget.API,TypeScriptOutput=../familybudget.react/src/services/GeneratedClient.ts,ClientTemplate=./client.extensions.ts" />
+		<Exec Command="$(NSwagExe_Net70) run nswag.json /variables:Configuration=$(Configuration),Output=.\ApiClient.generated.cs,ProjectReference=FamilyBudget.API,TypeScriptOutput=../familybudget.react/src/Services/GeneratedClient.ts,ClientTemplate=./client.extensions.ts" />
 	</Target>
 
 	<ProjectExtensions>
